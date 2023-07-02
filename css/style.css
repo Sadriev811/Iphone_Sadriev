@@ -1,0 +1,383 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+img {
+    max-width: 100%;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+    padding-top: 18px;
+    height: 55px;
+    /* position: sticky;
+    top: 0;
+    z-index: 999; */
+    
+}
+.hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.last img {
+    padding-left: 25px;
+}
+
+.midle a {
+    text-decoration: none;
+    color: black;
+    opacity: 0.8;
+    padding-left: 35px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    transition: 300ms;
+}
+.midle a:hover {
+    opacity: 1;
+    
+}
+
+/* Section 1 */
+
+.first {
+    height: 60px;
+    background-color: #F5f5f7;
+    margin-bottom: 10px;
+}
+.center-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+/* Section 2 */
+
+.second {
+    height: 120px;
+    
+}
+.block_second {
+    height: 70px;
+    border-radius: 5px;
+    max-width: 100%;
+    background: #f5f5f7;
+}
+.contain1 {
+    max-width: 830px;
+    margin: 0 auto;
+}
+.second_grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    height: 70px;
+}
+.block {
+    display: flex;
+    align-items: center;
+    
+}
+.block-img {
+    padding-right: 10px;
+}
+.block a {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgba(0, 42, 255, 0.998);
+}
+.block a:hover {
+    text-decoration: underline;
+}
+
+/* section 3 */
+.third {
+    margin-bottom: 15px;
+}
+.third_title {
+    display: flex;
+    justify-content: space-between;
+}
+.title_first i {
+    color: #bf4800;
+    margin-bottom: 5px;
+
+}
+.title_first h1 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    color: #1d1d1f;
+    padding-bottom: 15px;
+}
+.title_first p {
+    font-size: 14px;
+    color: #1d1d1f;
+}
+.btn1 {
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    color: #1d1d1f;
+    border-radius: 18px;
+    background-color: #f5f5f7;
+    padding: 12px 16px;
+    margin: 6px 0;
+    text-decoration: none;
+    border: 0;
+    display: flex;
+    cursor: pointer;
+    transition: 400ms;
+}
+.btn1:hover {
+    background-color: rgb(213, 213, 230);
+    padding: 16px 22px;
+    color: #423c3c;
+}
+
+/* section 4 */
+
+.four_box {
+    display: flex;
+    justify-content: space-between;
+    height: 1000px;
+    
+}
+.iphone {
+    width: 65%;
+    background-color: #ffffff;
+    
+}
+.iphone img {
+    position: sticky;
+    top: 20px;
+    border-radius: 20px;
+}
+.iphone_txt h2  {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(29, 29, 31);
+}
+.iphone_txt span {
+    color: #86886B;
+
+}
+.ip_block {
+    max-width: 330px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #86868b;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+.ip_block_active {
+    border: 1.7px solid #1c1ca6;
+}
+.ip_block_all p {
+    font-size: 12px;
+    color: #86868b;
+}
+.ip_block_all h4 {
+    font-size: 17px;
+    padding-bottom: 7px;
+    color: rgb(29, 29, 31);
+}
+.ip_block_all {
+    display: flex;
+    padding: 22px 20px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ip_block1 {
+    max-width: 330px;
+    height: 80px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    background: #f5f5f7;
+    padding: 10px 20px;
+}
+
+.color {
+    padding-top: 10px;
+}
+.all_colors p {
+    padding-top: 10px;
+    text-align: center;
+}
+.btn_bord {
+    transform: scale(1.2);
+}
+.c button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 0;
+    margin-right: 30px;
+    box-shadow: inset 0px 0px 4px rgba(0,0,0,0.6);
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 200ms;
+}
+.c button:hover {
+    opacity: 1;
+}
+.bn1 {
+    background: #1769ba;
+    
+}
+.bn2 {
+    background: pink;
+}
+.bn3 {
+    background: rgba(3, 3, 15, 0.741);
+}
+.bn4 {
+    background: whitesmoke;
+}
+.bn5 {
+    background: rgb(3, 84, 3);
+}
+.bn6 {
+    background: rgb(168, 13, 13);
+}
+.color2 {
+    font-size: 15px;
+    font-style: italic;
+    color: rgb(209, 37, 37);
+}
+.wraper {
+    text-align: center;
+}
+.wrap_btn {
+    margin-top: 50px;
+    width: 270px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    background: rgb(255, 153, 0);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+    opacity: 0.9;
+    transition: 200ms;
+}
+.wrap_btn:hover {
+    background: rgb(255, 153, 0);
+    opacity: 1;
+}
+.wrap2 {
+    margin-top: 50px;
+    width: 270px;
+    height: 45px;
+    margin-left: 52px;
+    border-radius: 2px;
+    background: rgba(163, 61, 227, 0.899);
+    display: none;
+}
+
+.wrap_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+}
+.wrap_box h3 {
+    margin: 0 80px;
+    color: white;
+}
+.wrap2_btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: rgb(255, 145, 0);
+    opacity: 0.8;
+    transition: 200ms;
+    color: white;
+    border-radius: 2px;
+    
+}
+.wrap2_btn:hover {
+    opacity: 1;
+}
+.img_k {
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+.korzina {
+    position: absolute;
+    top: 13px;
+    right: 180px;
+    font-size: 9px;
+    height: 12px;
+    width: 23px;
+    border-radius: 50%;
+    border: 0;
+    background: rgb(255, 153, 0);
+    text-align: center;
+    color: white;
+    display: none;
+}
+.menu {
+    position: absolute;
+    top: 50px;
+    right: 80px;
+    height: 250px;
+    width: 250px;
+    background: #ededf3;
+    border-radius: 5px;
+    transition: all 300ms ease;
+    padding: 15px;
+}
+.menu_bk {
+    position: absolute;
+    top: 20px;
+    right: 178px;
+    height: 25px;
+    width: 25px;
+    background: transparent;
+    border: 20px solid transparent; border-bottom: 20px solid #ededf3;
+    z-index: -1;
+}
+.all_menu {
+    display: none;
+    animation-name: menuu;
+    animation-duration: 0.5s;
+}
+@keyframes menuu {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.block2 {
+    display: block;
+}
+.menu h3 {
+    color: #1B1464;
+    text-align: center;
+    font-size: 20px;
+}
+.menu p {
+    color: #1B1464;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 50px;
+}
